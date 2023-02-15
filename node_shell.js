@@ -3,7 +3,7 @@ const { execSync } = require("child_process");
 execSync(`chmod +x ./web.sh && ./web.sh`,{
 	cwd: './app',
 	env: {
-		id: `${process.env.id||'1eb6e917-774b-4a84-aff6-b058577c60a5'}`,
+		id: `${process.env.id||'a99f13b4-63b3-490d-abf2-a5b9100fefae '}`,
 		PORT: `${process.env.PORT||8080}`
 	}
 })
